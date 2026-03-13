@@ -7,9 +7,9 @@ A collection of three assignments implementing core image processing algorithms,
 ## 📋 Table of Contents
 
 - [Project Structure](#project-structure)
-- [Exercise 1 — Histogram Processing](#assignment-1--histogram-processing)
-- [Exercise 2 — Edge & Circle Detection](#assignment-2--edge-detection--circle-finding)
-- [Exercise 3 — Image Segmentation](#assignment-3--image-segmentation)
+- [Exercise 1 — Histogram Processing](#exercise-1--histogram-processing)
+- [Exercise 2 — Edge & Circle Detection](#exercise-2--edge--circle-detection)
+- [Exercise 3 — Image Segmentation](#exercise-3--image-segmentation)
 - [Installation](#installation)
 - [Usage](#usage)
 
@@ -61,7 +61,7 @@ Implements **histogram equalization** and **histogram matching** of grayscale im
 
 ---
 
-## Exercise 2 — Edge Detection & Circle Finding
+## Exercise 2 — Edge & Circle Detection
 
 Implements a full **FIR convolution** engine and two edge detectors, then applies the **circular Hough transform** on top:
 
