@@ -7,7 +7,7 @@ A collection of three assignments implementing core image processing algorithms,
 ## 📋 Table of Contents
 
 - [Project Structure](#project-structure)
-- [Exercise 1 — Histogram Processing](#exercise-1--histogram-processing)
+- [Exercise 1 — Histogram Equalization & Matching](#exercise-1--histogram-equalization--matching)
 - [Exercise 2 — Edge & Circle Detection](#exercise-2--edge--circle-detection)
 - [Exercise 3 — Image Segmentation](#exercise-3--image-segmentation)
 - [Installation](#installation)
@@ -19,13 +19,13 @@ A collection of three assignments implementing core image processing algorithms,
 
 ```
 .
-├── Exercise_1/                 # Histogram equalization & matching
+├── Histogram_Equalization_Matching/     # Histogram equalization & matching
 │   ├── hist_utils.py
 │   ├── hist_modify.py
 │   ├── demo.py
 │   └── report.pdf
 │
-├── Exercise_2/                 # Edge detection & Hough circles
+├── Edge_Circle_Detection/               # Edge detection & Hough circles
 │   ├── fir_conv.py
 │   ├── sobel_edge.py
 │   ├── log_edge.py
@@ -33,7 +33,7 @@ A collection of three assignments implementing core image processing algorithms,
 │   ├── demo.py
 │   └── report2.pdf
 │
-├── Exercise_3/                 # Graph-based image segmentation
+├── Image_Segmentation/                  # Graph-based image segmentation
 │   ├── image_to_graph.py
 │   ├── spectral_clustering.py
 │   ├── n_cuts.py
@@ -49,7 +49,7 @@ A collection of three assignments implementing core image processing algorithms,
 
 ---
 
-## Exercise 1 — Histogram Processing
+## Exercise 1 — Histogram Equalization & Matching
 
 Implements **histogram equalization** and **histogram matching** of grayscale images via three distinct strategies:
 
@@ -113,9 +113,9 @@ pip install numpy scipy scikit-learn matplotlib pillow
 ### Required Data Files
 
 ```
-Exercise_1/  →  input_img.jpg, ref_img.png
-Exercise_2/  →  basketball_large.png
-Exercise_3/  →  dip_hw_3.mat
+Histogram_Equalization_Matching/  →  input_img.jpg, ref_img.png
+Edge_Circle_Detection/  →  basketball_large.png
+Image_Segmentation/  →  dip_hw_3.mat
 ```
 
 ---
@@ -126,13 +126,13 @@ Run each demo script directly from its assignment folder:
 
 ```bash
 # Assignment 1
-cd Exercise_1/ && python demo.py
+cd Histogram_Equalization_Matching/ && python demo.py
 
 # Assignment 2
-cd Exercise_2/ && python demo.py
+cd Edge_Circle_Detection/ && python demo.py
 
 # Assignment 3 — run demos in order
-cd Exercise_3/
+cd Image_Segmentation/
 python demo1.py
 python demo2.py
 python demo3a.py
