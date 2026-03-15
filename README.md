@@ -83,6 +83,12 @@ Implements **graph-based image segmentation** via Spectral Clustering and Normal
 - **N-Cuts (non-recursive):** same pipeline but solves the generalised eigenproblem instead, giving a normalised cut criterion
 - **N-Cuts (recursive):** repeatedly bisects the graph (k=2) and stops a branch when cluster size < T1 or the Ncut metric > T2
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/df240eaf-b991-4c24-ad18-1789178b43c2" width="25%" hspace="15" />
+  <img src="https://github.com/user-attachments/assets/2069c910-91a5-46ad-b883-eae402975ceb" width="25%" hspace="15" />
+  <img src="https://github.com/user-attachments/assets/e97561f2-743d-46ce-ad09-89678a95a190" width="25%" hspace="15" />
+</div>
+
 ### Demos
 
 | Script | Description |
